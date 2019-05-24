@@ -20,16 +20,9 @@ import org.apache.commons.logging.Log;
 /**
  *
  */
-public class Pyramid {
-    private static Log log = LogFactory.getLog(Pyramid.class);
+public class Keeper {
+    private static Log log = LogFactory.getLog(Keeper.class);
 
-    // Single image size limitation: 4bx4b
-    public static final int O_WIDTH = 0;                    // uint
-    public static final int O_HEIGHT = O_WIDTH + 4;         // uint
-    public static final int O_AVERAGE_COLOR = O_HEIGHT + 4; // RGB
-    public static final int O_TILE_START = O_AVERAGE_COLOR + 3;
-
-    public get
+    public final IDMapper idMapper;
 
 }
-
